@@ -1,2 +1,3 @@
 # CourseWork
-python related scripts of course 8200
+Here I will finish my final project. 
+To be more specific, I will do some r-process calculation with a constant entropy and a entropy generation celculation.
