@@ -1,0 +1,13 @@
+--t9_0 10
+--mass 0.01
+--rho_0 1.e11
+--network_xml ../nucnet-tools-code/data_pub/my_net.xml
+--nuc_xpath "[z <= 90]"
+--output_xml with-thermo-with-sdot.xml
+--init_mass_frac "{h1; 0.1}" --init_mass_frac "{n; 0.9}"
+--stepper ab6
+--xml_steps 20
+--nse true
+--t_end 100
+--observe true
+--every_step true
